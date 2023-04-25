@@ -11,7 +11,7 @@ function compute(){
 
     if(p<=0){
         alert("Please enter a positive number!");
-        Document.getElementById("principal").focus();
+        document.getElementById("principal").focus();
     }
     else {
         result.innerHTML = " If you deposit $" + "<mark>" + principal + ",\<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of $" + amount + ",\<br\>in the year " + year + "\<br\>";
